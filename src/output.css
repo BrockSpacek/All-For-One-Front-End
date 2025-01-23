@@ -887,6 +887,18 @@
   .h-screen {
     height: 100vh;
   }
+  .max-h-5 {
+    max-height: calc(var(--spacing) * 5);
+  }
+  .max-h-6 {
+    max-height: calc(var(--spacing) * 6);
+  }
+  .max-h-60 {
+    max-height: calc(var(--spacing) * 60);
+  }
+  .max-h-72 {
+    max-height: calc(var(--spacing) * 72);
+  }
   .max-h-none {
     max-height: none;
   }
