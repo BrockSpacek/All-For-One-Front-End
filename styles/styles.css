@@ -1,0 +1,103 @@
+.home-image {
+  background-image: url("../assets/Home\ Page.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.about-image {
+  background-image: url("../assets/About\ Background.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.play-image{
+  background-image: url("../assets/wp12250335-mha-ua-wallpapers.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-one-image{
+  background-image: url("../assets/game\ 1\ background.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-two-image{
+  background-image: url("../assets/Game\ 2\ BackGround.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-three-image{
+  background-image: url("../assets/Game\ 3\ Image.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-four-image{
+  background-image: url("../assets/Game\ 4\ Background.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-five-image{
+  background-image: url("../assets/Game\ 5\ Background.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-six-image{
+  background-image: url("../assets/Game\ 6\ Background.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-seven-image{
+  background-image: url("../assets/Game\ 7\ Background.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-eight-image{
+  background-image: url("../assets/Game\ 8\ BackGround.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-nine-image{
+  background-image: url("../assets/Game\ 9\ Background.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+.game-ten-image{
+  background-image: url("../assets/Game\ 10\ Background.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
