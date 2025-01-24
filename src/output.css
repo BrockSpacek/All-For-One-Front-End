@@ -770,6 +770,15 @@
   .mr-9 {
     margin-right: calc(var(--spacing) * 9);
   }
+  .mr-10 {
+    margin-right: calc(var(--spacing) * 10);
+  }
+  .mr-15 {
+    margin-right: calc(var(--spacing) * 15);
+  }
+  .mr-16 {
+    margin-right: calc(var(--spacing) * 16);
+  }
   .mr-20 {
     margin-right: calc(var(--spacing) * 20);
   }
@@ -805,6 +814,12 @@
   }
   .ml-7 {
     margin-left: calc(var(--spacing) * 7);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
+  .ml-16 {
+    margin-left: calc(var(--spacing) * 16);
   }
   .ml-20 {
     margin-left: calc(var(--spacing) * 20);
@@ -941,6 +956,12 @@
   .h-\[20px\] {
     height: 20px;
   }
+  .h-\[40px\] {
+    height: 40px;
+  }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[250px\] {
     height: 250px;
   }
@@ -950,14 +971,8 @@
   .h-\[30px\] {
     height: 30px;
   }
-  .h-\[40px\] {
-    height: 40px;
-  }
   .h-\[45px\] {
     height: 45px;
-  }
-  .h-\[50px\] {
-    height: 50px;
   }
   .h-\[100px\] {
     height: 100px;
@@ -1031,6 +1046,9 @@
   .w-30 {
     width: calc(var(--spacing) * 30);
   }
+  .w-40 {
+    width: calc(var(--spacing) * 40);
+  }
   .w-56 {
     width: calc(var(--spacing) * 56);
   }
@@ -1043,17 +1061,20 @@
   .w-\[2\] {
     width: 2;
   }
+  .w-\[500px\] {
+    width: 500px;
+  }
+  .w-\[52px\] {
+    width: 52px;
+  }
   .w-\[650px\] {
     width: 650px;
   }
   .w-\[6px\] {
     width: 6px;
   }
-  .w-\[500px\] {
-    width: 500px;
-  }
-  .w-\[52px\] {
-    width: 52px;
+  .w-\[50px\] {
+    width: 50px;
   }
   .w-\[200px\] {
     width: 200px;
@@ -1066,6 +1087,9 @@
   }
   .w-\[700px\] {
     width: 700px;
+  }
+  .w-\[750px\] {
+    width: 750px;
   }
   .w-full {
     width: 100%;
@@ -1754,6 +1778,9 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
+  .bg-blue-400 {
+    background-color: var(--color-blue-400);
+  }
   .bg-gray-50 {
     background-color: var(--color-gray-50);
   }
@@ -2102,6 +2129,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-gray-900 {
     color: var(--color-gray-900);
