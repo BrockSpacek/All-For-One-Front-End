@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../styles/styles.css">
-<link rel="stylesheet" href="../src/output.css">
-<title>All For One</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../src/output.css">
+    <title>Madlib</title>
 </head>
 
 <body class="game-six-image">
 
-    <div class="flex justify-center mt-[20px]">
-        <h1 class="bg-yellow-400 text-3xl h-[40px] w-[650px] text-center rounded-2xl">Choose A Hero To Aid</h1>
-        </div>
+    <div class="mt-[20px] ml-[350px]">
+        <h1 id="allMightText"
+            class="bg-[#B60A0D] place-content-center text-center text-white text-3xl h-[80px] w-[750px] rounded-2xl">
+            Let's make a story young hero</h1>
+    </div>
+
+    <div id="gameSixInputs" class=" max-w-[800px] grid grid-cols-[repeat(3,minmax(400px,1fr))] gap-2 place-items-center mt-[200px]">
+        <input type="text" id="firstInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Name" required />
+
+        <input type="text" id="secondInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Number" required />
+
+        <input type="text" id="thirdInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Name" required />
+
+        <input type="text" id="fourthInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Number" required />
+
+        <input type="text" id="fifthInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter City" required />
+
+        <input type="text" id="sixthInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Animal" required />
+
+        <input type="text" id="seventhInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Hobby" required />
+
+        <input type="text" id="eighthInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Job" required />
+
+        <input type="text" id="ninethInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Car" required />
+
+        <input type="text" id="tenthInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Car" required />
+
+        <input type="text" id="eleventhInput" class="bg-[#B60A0D] text-white text-2xl h-10 w-40 rounded-[7px]"
+            placeholder="Enter Yes/No" required />
+    </div>
+
+    
+    <div class="mt-[20px] ml-[10px]">
+        <h1 id="storyText"
+            class="bg-[#B60A0D] place-content-center text-center text-white h-[250px] w-[1500px] rounded-2xl hide">
+            </h1>
+    </div>
+
+    <a id="gameSixMainBtn" class="flex justify-end mt-[215px] mr-7" href="../index.html">
+        <img class="h-[200px] w-[250px] hover:opacity-70" src="../assets/Splash bubble.png" alt="Splash button">
+    </a>
 
 
 
-
-<script src="../scripts/app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="../scripts/GameSix.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
+
 </html>
