@@ -5,19 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../styles/styles.css">
 <link rel="stylesheet" href="../src/output.css">
-<title>All For One</title>
+<title>Odd or Even</title>
 </head>
 
 <body class="game-four-image">
 
     <div class="flex justify-center mt-[20px]">
-        <h1 class="bg-yellow-400 text-3xl h-[40px] w-[650px] text-center rounded-2xl">Choose A Hero To Aid</h1>
+        <h1 id="uraracaText" class="bg-[#5235D7] text-white place-content-center text-3xl h-[80px] w-[750px] text-center rounded-2xl">Hiya, let's see if a number is odd or even</h1>
+    </div>
+
+    <div id="gameFourInput" class="mt-[500px] place-items-center">
+        <div>
+            <h1 class="bg-[#5235D7] text-white text-3xl h-[40px] w-96 text-center rounded-[7px]">Check any number here!</h1>
+            <input type="text" id="oddOrEvenNumber"
+                class="bg-[#5235D7] text-white text-2xl h-10 w-96 rounded-[7px] mt-7" placeholder="Enter Number"
+                required />
         </div>
+    </div>
+
+    <a class="flex justify-end mr-7" href="../index.html">
+        <img class="h-[200px] w-[250px]" src="../assets/Splash bubble.png" alt="Splash button">
+    </a>
 
 
 
 
-<script src="../scripts/app.js"></script>
+
+<script src="../scripts/GameFour.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 </html>
